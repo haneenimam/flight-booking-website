@@ -1,0 +1,167 @@
+/* General styles for the login page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the login content */
+.login-container {
+    background-color: #fefefe;
+    padding: 40px;
+    border: 1px solid #888;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.login-container h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 35px;
+    color: #410271;
+}
+
+.login-container p {
+    margin-top: 3px;
+    text-align: center;
+    font-size: large;
+}
+
+/* Logo styles */
+.logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* Social login buttons */
+.optionsbtn {
+    margin: 5px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.optionsbtn:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.02);
+}
+
+#apple {
+    background-color: black;
+    color: white;
+}
+
+#facebook {
+    color: black;
+}
+
+/* Email login form */
+#emailLoginForm {
+    display: none;
+    margin-top: 20px;
+}
+
+.emailform label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #333;
+}
+
+#emailInput,
+#passwordInput {
+    width: 100%;
+    max-width: 380px;
+    height: 25px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
+
+#submitEmailBtn {
+    margin: 15px;
+    background-color: gainsboro;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+#submitEmailBtn:hover {
+    background-color: #ddd;
+}
+
+/* Back button */
+#backButton {
+    background-color: #410271;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#backButton:hover {
+    background-color: #5936c4;
+}
+
+/* Error messages */
+.error-message {
+    color: red;
+    display: none;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Terms and conditions */
+#agree a {
+    padding-left: 4px;
+    text-decoration: underline;
+    color: blue;
+}
+
+#remember label {
+    color: #023271;
+    text-align: left;
+    margin-left: 0 auto;
+}
+
+/* Icons inside buttons */
+.fa-apple {
+    color: #edeff3;
+}
+
+.fa-facebook {
+    color: #1a4184;
+}
+
+.fa-google {
+    color: #61b4e1;
+}
+
+.fa-envelope {
+    color: #151618;
+}

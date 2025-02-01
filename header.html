@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="header.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+    *{
+        font-family: "Quicksand", serif;
+    
+    }
+    body {
+        font-optical-sizing: auto;
+        font-style: normal; 
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4; 
+    }
+    .header1 {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        background-color:#410271;
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+    }
+  
+    .header1 p {
+        margin: 0;
+        font-weight:bold;
+        font-size: 1.3rem; 
+        margin-right: 10px;
+    }
+    .header1 i {
+        padding-left: 5px;
+        cursor: pointer; 
+        transition: color 0.3s;
+    }
+    
+    .header1 i:hover {
+        color: #ecf0f1; 
+    }
+    
+    .header1 a{
+        font-family: "Quicksand", serif;
+    
+        color: white;
+        text-decoration: none;
+    }
+    .header1 img{
+        margin: 0;
+        padding-top: 1px;
+        height: 45px;
+        width: 130px;
+    }
+    </style>
+</head>
+<body>
+    <header class="header1">
+        <a href="../index.html">
+<img src="../purple.png">        </a>
+        <a href="login.html" id="openModal">
+            <p>Login<i class="fa-solid fa-user"></i></p>
+        </a>
+    </header>
+   
+<!-- Login Modal -->
+<!-- <div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <header id="head1">
+            <img src="white horizontal logo.png" alt="Flyee Logo" class="logo">
+        </header>
+        <h2>Get the full experience</h2>
+        <p>Track prices, make trip planning easier and enjoy faster booking.</p>
+        <button id="apple" class="optionsbtn"><i class="fa-brands fa-apple"></i> Continue with Apple</button>
+        <br>
+        <button id="facebook" class="optionsbtn"><i class="fa-brands fa-facebook"></i> Facebook</button>
+        <br>
+        <button id="google" class="optionsbtn"><i class="fa-brands fa-google"></i> Google</button>
+        <br>
+        <button id="email" class="optionsbtn"><i class="fa-solid fa-envelope"></i> Email</button>
+        <br>
+        <div id="emailLoginForm">
+            <form id="emailForm">
+                <label for="emailInput">Email:</label>
+                <input type="email" id="emailInput" name="email" required>
+                <span id="emailError" class="error-message" style="color: red; display: none;">Please enter a valid email address.</span>
+                <br>
+                <label for="passwordInput">Password:</label>
+                <input type="password" id="passwordInput" name="password" required>
+                <span id="passwordError" class="error-message" style="color: red; display: none;">Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character.</span>
+                <br>
+                <button type="submit" id="submitEmailBtn">Login</button>
+                <button type="button" id="backButton">Back</button>
+            </form>
+        </div>
+        <br>
+        <label id="remember">
+            <input type="checkbox"> Remember me
+        </label>
+        <br>
+        <label>
+            By continuing you agree to our <a>Terms of Service</a> and <a>Privacy Policy</a>.
+        </label>
+    </div>
+</div> -->
+
+</body>
+</html>

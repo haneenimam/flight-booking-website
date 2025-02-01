@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLYEE</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="indexcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <section class="hero">
+            <h2>Discover Your Dream Destination</h2>
+            <p>Plan your next adventure with ease!</p>
+        </section>
+        <section class="sectionSearch">
+            <div class="search">
+                <form action="result1/resultPage.html" method="get">
+                    <label for="from">From :</label>
+
+                    <input list="countries" id="from" name="from" placeholder="" required>
+                    <datalist id="countries">
+                        <option value="Egypt">
+                        <option value="United Kingdom">
+                        <option value="France">
+                        <option value="Germany">
+                        <option value="Brazil">
+                        <option value="India">
+                        <option value="China">
+                        <option value="Italy">
+                        <option value="Turkey">
+                        <option value="Morocco">
+                        <option value="Spain">
+                    </datalist>
+                    <button type="button" id="swapBtn">
+                        <i class="fa-solid fa-right-left" id="arrow"></i>
+                    </button>
+                    <label for="to">To :</label>
+                    <input list="countries2" id="to" name="to" required>
+                    <datalist id="countries2">
+                        <option value="Egypt">
+                        <option value="United States">
+                        <option value="United Kingdom">
+                        <option value="France">
+                        <option value="Germany">
+                        <option value="Japan">
+                        <option value="Brazil">
+                        <option value="India">
+                        <option value="China">
+                        <option value="Italy">
+                        <option value="Canada">
+                        <option value="Turkey">
+                        <option value="Morocco">
+                        <option value="Spain">
+                    </datalist>
+            </div>
+            <div class="field">
+                <label for="takeoff">Take Off:</label>
+                <input type="date" id="takeoff" name="takeoff" required>
+
+                <label for="return">Return:</label>
+                <input type="date" id="return" name="return">
+            </div>
+            <button type="submit" class="search-btn">Search</button>
+
+            </form>
+        </section>
+        <section class="features">
+            <h3>Why Choose Us?</h3>
+            <div class="features-container">
+                <div class="feature">
+                    <i class="fa-solid fa-plane"></i>
+                    <h4>Fast Booking</h4>
+                    <p>Book your flights quickly and securely.</p>
+                </div>
+                <div class="feature">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <h4>Worldwide Destinations</h4>
+                    <p>Explore destinations all around the globe.</p>
+                </div>
+                <div class="feature">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <h4>Best Prices</h4>
+                    <p>Get the best deals on your travel plans.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div id="footer-placeholder"></div>
+
+        <!-- <div class="footer-section">
+            <h4>Help</h4>
+            <ul>
+                <li><a href="#">Privacy Settings</a></li>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#">Cookie policy</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">Company Details</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Explore</h4>
+            <ul>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Trips</a></li>
+                <li><a href="#">International Sites</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 FLYEE. All Rights Reserved.</p>
+        </div> -->
+    </footer>
+    <!-- <button id="openModal">Login</button> -->
+
+    <!-- <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <header>
+                <img src="login/Preview.png" alt="Flyee Logo" class="logo">
+              <i class="fa-solid fa-plane fa-2xl" style="color: #5936c4;"></i> -->
+    <!-- </header>
+            <h2>Get the full experience</h2>
+            <p>Track prices, make trip planning easier and enjoy faster booking.</p>
+            <button id="apple" class="optionsbtn"><i class="fa-brands fa-apple fa-lg" style="color: #edeff3;"></i>
+                Continue with Apple</button>
+            <br>
+            <button id="facebook" class="optionsbtn"><i class="fa-brands fa-facebook fa-lg" style="color: #1a4184;"></i>
+                Facebook</button>
+            <br>
+            <button id="google" class="optionsbtn"><i class="fa-brands fa-google fa-lg" style="color: #61b4e1;"></i>
+                Google</button>
+            <br>
+            <button id="email" class="optionsbtn"><i class="fa-solid fa-envelope fa-lg" style="color: #151618;"></i>
+                Email</button>
+            <br>
+            <label id="remember">
+                <input type="checkbox"> Remember me
+            </label>
+            <br>
+            <label id="agree">
+                By continuing you agree to our<a>Terms of Service</a> and <a>Privacy Policy</a>.
+            </label>
+        </div>
+    </div> -->
+
+</body>
+
+</html>
